@@ -10,12 +10,14 @@ public class Main {
         set1.add(5);
         set1.add(8);
         set1.add(9);
+        set1.add(6);
         System.out.println("Set first: " + set1);
 
         Set<Integer> set2 = new HashSet<>();
         set2.add(2);
         set2.add(9);
         set2.add(8);
+        set2.add(0);
         System.out.println("Set second: " + set2);
 
         symmetricDifference(set1,set2);
